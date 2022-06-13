@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"></script>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Odd Duck Product Co</title>
@@ -11,22 +12,22 @@
 <body>
   
     <div class="mainContainer">
+
         <nav>Navbar</nav>
-        <div id="sidebar">Sidebar</div>
+        <div id="sidebar">Sidebar
+            <button id="results-btn" hidden>View Results</button>
+            <ul id='results-list' hidden>
+                
+            </ul>
+        </div>
         <div id="images">images</div>
         <article>
             Article
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, nemo provident nobis enim perspiciatis impedit error, magni dolore, quo explicabo maiores alias? Sequi assumenda quisquam voluptatem laborum harum ea aliquid!
-
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum corporis cum commodi quisquam iure doloribus voluptatum harum iusto numquam, quibusdam dolore voluptatem modi blanditiis consequatur labore. Deleniti quis corporis iusto!
-            </p>
+            <canvas id="chart"></canvas>
+      
         </article>
         <footer>Footer</footer>
       </div>
-      
-      
-
 
     </div>
 

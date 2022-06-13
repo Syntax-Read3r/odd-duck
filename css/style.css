@@ -47,6 +47,7 @@
   }
 
   #images {
+    display: flex;
     background: #6fffd2;
     grid-area: images;
     border-radius: var(--main-radius);
@@ -83,7 +84,6 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    max-width: 250px;
-    height: 250px;
+    max-width: 30%;
     object-fit:cover
 }
